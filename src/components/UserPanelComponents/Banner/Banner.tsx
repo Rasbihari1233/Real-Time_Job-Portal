@@ -1,7 +1,7 @@
 const Banner = () => {
   return (
     <main>
-      <div className="px-6 lg:px-8 mt-28">
+      <div className="px-6 lg:px-8 pt-32">
         <div className="mx-auto max-w-7xl pt-16 sm:pt-20 pb-20 banner-image">
           <div className="text-center">
             <h1 className="text-4xl font-semibold text-navyblue sm:text-5xl  lg:text-7xl md:4px lh-96">

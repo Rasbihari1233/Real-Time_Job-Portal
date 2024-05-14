@@ -1,7 +1,7 @@
-import Breadcrumb from '../components/Breadcrumbs/Breadcrumb';
-import TableOne from '../components/Tables/TableOne';
-import TableThree from '../components/Tables/TableThree';
-import TableTwo from '../components/Tables/TableTwo';
+import Breadcrumb from '../components/AdminComponents/Breadcrumbs/Breadcrumb';
+import TableOne from '../components/AdminComponents/Tables/TableOne';
+import TableThree from '../components/AdminComponents/Tables/TableThree';
+import TableTwo from '../components/AdminComponents/Tables/TableTwo';
 import DefaultLayout from '../layout/DefaultLayout';
 
 const Tables = () => {

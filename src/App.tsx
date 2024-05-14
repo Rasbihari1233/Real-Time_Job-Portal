@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { Route, Routes, useLocation } from 'react-router-dom';
 
 import Loader from './common/Loader';
-import PageTitle from './components/PageTitle';
+import PageTitle from './components/AdminComponents/PageTitle';
 import SignIn from './pages/Authentication/SignIn';
 import SignUp from './pages/Authentication/SignUp';
 import Calendar from './pages/Calendar';
@@ -16,6 +16,8 @@ import Tables from './pages/Tables';
 import Alerts from './pages/UiElements/Alerts';
 import Buttons from './pages/UiElements/Buttons';
 import UserPanel from './pages/UserPanel';
+import JobPortal from './pages/JobPortal';
+import UserProfile from './pages/UserProfile';
 
 function App() {
   const [loading, setLoading] = useState<boolean>(true);
@@ -44,6 +46,24 @@ function App() {
           }
         />
         <Route
+          path="/jobs"
+          element={
+            <>
+              <PageTitle title="eCommerce Dashboard | TailAdmin - Tailwind CSS Admin Dashboard Template" />
+              <JobPortal />
+            </>
+          }
+        />
+        <Route
+          path="/profile"
+          element={
+            <>
+              <PageTitle title="eCommerce Dashboard | TailAdmin - Tailwind CSS Admin Dashboard Template" />
+              <UserProfile />
+            </>
+          }
+        />
+        <Route
           path="/ecommerce"
           element={
             <>
@@ -62,7 +82,7 @@ function App() {
           }
         />
         <Route
-          path="/profile"
+          path="/user-profile"
           element={
             <>
               <PageTitle title="Profile | TailAdmin - Tailwind CSS Admin Dashboard Template" />
