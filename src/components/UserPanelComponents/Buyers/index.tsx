@@ -7,25 +7,25 @@ interface cardDataType {
 
 const cardData: cardDataType[] = [
   {
-    imgSrc: '/assets/buyers/ourbuyers.svg',
+    imgSrc: '/assets/user/buyers/ourbuyers.svg',
     percent: '80k',
     heading: 'Our buyers',
     subheading: 'Follow a hashtag growth total posts, videos and images.',
   },
   {
-    imgSrc: '/assets/buyers/projectcompleted.svg',
+    imgSrc: '/assets/user/buyers/projectcompleted.svg',
     percent: '90k',
     heading: 'Project completed',
     subheading: 'Follow a hashtag growth total posts, videos and images.',
   },
   {
-    imgSrc: '/assets/buyers/happybuyers.svg',
+    imgSrc: '/assets/user/buyers/happybuyers.svg',
     percent: '80%',
     heading: 'Happy buyers',
     subheading: 'Follow a hashtag growth total posts, videos and images.',
   },
   {
-    imgSrc: '/assets/buyers/teammembers.svg',
+    imgSrc: '/assets/user/buyers/teammembers.svg',
     percent: '50+',
     heading: 'Team members',
     subheading: 'Follow a hashtag growth total posts, videos and images.',
@@ -37,7 +37,10 @@ const Buyers = () => {
     <div className="mx-auto max-w-7xl py-16 px-6">
       <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-y-20 gap-x-5">
         {cardData.map((items, i) => (
-          <div className="flex flex-col justify-center items-center" key={i}>
+          <div
+            className="flex flex-col justify-center items-center  bg-white rounded-3xl p-4 shadow-xl"
+            key={i}
+          >
             <div className="flex justify-center border border-border  p-2 w-10 rounded-lg">
               <img
                 src={items.imgSrc}

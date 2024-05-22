@@ -25,11 +25,15 @@ const Footer = () => {
           {/* COLUMN-1 */}
 
           <div className="col-span-4 md:col-span-12 lg:col-span-4">
-            <img src={'/assets/footer/logo.svg'} alt="logo" className="pb-8" />
+            <img
+              src={'/assets/user/footer/logo.svg'}
+              alt="logo"
+              className="pb-8"
+            />
             <div className="flex gap-4">
               <Link to="https://facebook.com" className="footer-fb-icons">
                 <img
-                  src={'/assets/footer/facebook.svg'}
+                  src={'/assets/user/footer/facebook.svg'}
                   alt="facebook"
                   width={15}
                   height={20}
@@ -37,7 +41,7 @@ const Footer = () => {
               </Link>
               <Link to="https://twitter.com" className="footer-icons">
                 <img
-                  src={'/assets/footer/twitter.svg'}
+                  src={'/assets/user/footer/twitter.svg'}
                   alt="twitter"
                   width={20}
                   height={20}
@@ -45,7 +49,7 @@ const Footer = () => {
               </Link>
               <Link to="https://instagram.com" className="footer-icons">
                 <img
-                  src={'/assets/footer/instagram.svg'}
+                  src={'/assets/user/footer/instagram.svg'}
                   alt="instagram"
                   width={20}
                   height={20}
@@ -81,7 +85,7 @@ const Footer = () => {
           <div className="col-span-4 md:col-span-4 lg:col-span-4">
             <div className="flex gap-2">
               <img
-                src={'/assets/footer/mask.svg'}
+                src={'/assets/user/footer/mask.svg'}
                 alt="mask-icon"
                 width={24}
                 height={24}
@@ -92,7 +96,7 @@ const Footer = () => {
             </div>
             <div className="flex gap-2 mt-10">
               <img
-                src={'/assets/footer/telephone.svg'}
+                src={'/assets/user/footer/telephone.svg'}
                 alt="telephone-icon"
                 width={24}
                 height={24}
@@ -103,7 +107,7 @@ const Footer = () => {
             </div>
             <div className="flex gap-2 mt-10">
               <img
-                src={'/assets/footer/email.svg'}
+                src={'/assets/user/footer/email.svg'}
                 alt="email-icon"
                 width={24}
                 height={24}

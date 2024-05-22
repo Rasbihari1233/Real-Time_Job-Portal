@@ -29,7 +29,7 @@ const Why = () => {
           {/* COLUMN-1 */}
           <div className="lg:-ml-64">
             <img
-              src="/assets/why/iPad.png"
+              src="/assets/user/why/iPad.png"
               alt="iPad-image"
               width={4000}
               height={900}
@@ -51,7 +51,7 @@ const Why = () => {
                 <div className="flex mt-4" key={i}>
                   <div className="rounded-full h-10 w-12 flex items-center justify-center bg-circlebg">
                     <img
-                      src="/assets/why/check.svg"
+                      src="/assets/user/why/check.svg"
                       alt="check-image"
                       width={24}
                       height={24}

@@ -8,22 +8,22 @@ interface datatype {
 
 const Aboutdata: datatype[] = [
   {
-    imgSrc: '/assets/provide/marketing.svg',
+    imgSrc: '/assets/user/provide/marketing.svg',
     country: 'Marketing',
     paragraph: 'Follow a hashtag total posts, videos',
   },
   {
-    imgSrc: '/assets/provide/graphic.svg',
+    imgSrc: '/assets/user/provide/graphic.svg',
     country: 'Graphic design',
     paragraph: 'Follow a hashtag total posts, videos',
   },
   {
-    imgSrc: '/assets/provide/heaking.svg',
+    imgSrc: '/assets/user/provide/heaking.svg',
     country: 'Heaking',
     paragraph: 'Follow a hashtag total posts, videos',
   },
   {
-    imgSrc: '/assets/provide/uidesign.svg',
+    imgSrc: '/assets/user/provide/uidesign.svg',
     country: 'UI/UX Design',
     paragraph: 'Follow a hashtag total posts, videos',
   },
@@ -52,7 +52,7 @@ const Provide = () => {
               >
                 Learn more{' '}
                 <img
-                  src={'/assets/provide/arrow.svg'}
+                  src={'/assets/user/provide/arrow.svg'}
                   alt={'arrow'}
                   width={20}
                   height={20}

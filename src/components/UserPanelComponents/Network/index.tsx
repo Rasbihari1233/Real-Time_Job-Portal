@@ -6,22 +6,22 @@ interface datatype {
 
 const Aboutdata: datatype[] = [
   {
-    imgSrc: '/assets/network/bangladesh.svg',
+    imgSrc: '/assets/user/network/bangladesh.svg',
     country: 'Bangladesh',
     paragraph: 'Event madness gathering innoies, & tech enthusiasts in Speced.',
   },
   {
-    imgSrc: '/assets/network/america.svg',
+    imgSrc: '/assets/user/network/america.svg',
     country: 'United States',
     paragraph: 'Event madness gathering innoies, & tech enthusiasts in Speced.',
   },
   {
-    imgSrc: '/assets/network/australia.svg',
+    imgSrc: '/assets/user/network/australia.svg',
     country: 'Australia',
     paragraph: 'Event madness gathering innoies, & tech enthusiasts in Speced.',
   },
   {
-    imgSrc: '/assets/network/china.svg',
+    imgSrc: '/assets/user/network/china.svg',
     country: 'China',
     paragraph: 'Event madness gathering innoies, & tech enthusiasts in Speced.',
   },
@@ -36,7 +36,7 @@ const Network = () => {
         </h3>
 
         <img
-          src={'/assets/network/map.png'}
+          src={'/assets/user/network/map.png'}
           alt={'map-image'}
           width={1400}
           height={800}

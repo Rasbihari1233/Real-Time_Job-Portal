@@ -61,7 +61,7 @@ html:not([data-scroll='0']) .navbar {
 }
 
 .banner-image {
-  background-image: url('/assets/banner/shapes.svg');
+  background-image: url('/assets/user/banner/shapes.svg');
   background-repeat: no-repeat;
   background-position: top;
   background-size: contain;
@@ -90,7 +90,7 @@ hr {
 }
 
 .bg-image-what {
-  background-image: url('/assets/clientsay/bgimage.svg');
+  background-image: url('/assets/user/clientsay/bgimage.svg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -139,4 +139,25 @@ hr {
 
 .space-links:hover {
   letter-spacing: 1px;
+}
+
+.category-items {
+  display: none;
+}
+
+.category-item {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  padding: 8px 20px;
+  margin: auto;
+  border-radius: 5px;
+}
+
+.category-item .sib1,
+.category-item .sib3 {
+  flex-grow: 1;
+}
+.category-item .sib2 {
+  flex-grow: 2;
 }

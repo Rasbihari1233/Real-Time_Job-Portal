@@ -7,14 +7,14 @@ const Newsletter = () => {
           <div className="hidden lg:block">
             <div className="float-right pt-20 relative">
               <img
-                src={'/assets/newsletter/bgImage.png'}
+                src={'/assets/user/newsletter/bgImage.png'}
                 alt="bgimg"
                 width={588}
                 height={334}
               />
               <div className="absolute top-10 right-0">
                 <img
-                  src={'/assets/newsletter/leaf.svg'}
+                  src={'/assets/user/newsletter/leaf.svg'}
                   alt="leafimg"
                   width={81}
                   height={81}
@@ -22,7 +22,7 @@ const Newsletter = () => {
               </div>
               <div className="absolute bottom-8 left-2">
                 <img
-                  src={'/assets/newsletter/circel.svg'}
+                  src={'/assets/user/newsletter/circel.svg'}
                   alt="circleimg"
                   width={30}
                   height={30}
@@ -50,7 +50,7 @@ const Newsletter = () => {
               />
               <button className="bg-midblue text-white font-medium py-2 px-4 rounded-r-lg">
                 <img
-                  src={'/assets/newsletter/plane.svg'}
+                  src={'/assets/user/newsletter/plane.svg'}
                   alt="plane-img"
                   width={20}
                   height={20}

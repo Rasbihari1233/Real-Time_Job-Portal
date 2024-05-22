@@ -29,7 +29,7 @@ const Banner = () => {
           </div>
 
           <img
-            src={'/assets/banner/dashboard.svg'}
+            src={'/assets/user/banner/dashboard.svg'}
             alt="banner-image"
             width={1200}
             height={598}

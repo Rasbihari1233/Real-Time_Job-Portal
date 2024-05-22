@@ -18,6 +18,12 @@ import Buttons from './pages/UiElements/Buttons';
 import UserPanel from './pages/UserPanel';
 import JobPortal from './pages/JobPortal';
 import UserProfile from './pages/UserProfile';
+import Login from './pages/JobPortal/authentication/Login';
+import Register from './pages/JobPortal/authentication/Register';
+import Registration_Success from './pages/JobPortal/authentication/Registration_Success';
+import Otp from './pages/JobPortal/authentication/Otp';
+import ForgotPassword from './pages/JobPortal/authentication/ForgotPassword';
+import JobDetail from './pages/JobPortal/JobDetail';
 
 function App() {
   const [loading, setLoading] = useState<boolean>(true);
@@ -51,6 +57,60 @@ function App() {
             <>
               <PageTitle title="eCommerce Dashboard | TailAdmin - Tailwind CSS Admin Dashboard Template" />
               <JobPortal />
+            </>
+          }
+        />
+        <Route
+          path="/job-detail/:id"
+          element={
+            <>
+              <PageTitle title="eCommerce Dashboard | TailAdmin - Tailwind CSS Admin Dashboard Template" />
+              <JobDetail />
+            </>
+          }
+        />
+        <Route
+          path="/login"
+          element={
+            <>
+              <PageTitle title="eCommerce Dashboard | TailAdmin - Tailwind CSS Admin Dashboard Template" />
+              <Login />
+            </>
+          }
+        />
+        <Route
+          path="/register"
+          element={
+            <>
+              <PageTitle title="eCommerce Dashboard | TailAdmin - Tailwind CSS Admin Dashboard Template" />
+              <Register />
+            </>
+          }
+        />
+        <Route
+          path="/register-success"
+          element={
+            <>
+              <PageTitle title="eCommerce Dashboard | TailAdmin - Tailwind CSS Admin Dashboard Template" />
+              <Registration_Success />
+            </>
+          }
+        />
+        <Route
+          path="/forgot-password"
+          element={
+            <>
+              <PageTitle title="eCommerce Dashboard | TailAdmin - Tailwind CSS Admin Dashboard Template" />
+              <ForgotPassword />
+            </>
+          }
+        />
+        <Route
+          path="/otp"
+          element={
+            <>
+              <PageTitle title="eCommerce Dashboard | TailAdmin - Tailwind CSS Admin Dashboard Template" />
+              <Otp />
             </>
           }
         />
